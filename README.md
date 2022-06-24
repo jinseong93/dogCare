@@ -11,5 +11,23 @@
 ### 개인으로 진행되었으며 카카오api와 bootstrap tamplate을 가져와 사용하였습니다.
 ***
 ### <로그인 페이지>
-![image](https://user-images.githubusercontent.com/102139584/175490216-63c84f0f-5de4-4f03-9fcf-9482c1ed522e.png)
+![image](https://user-images.githubusercontent.com/102139584/175505616-9f8e80c2-a94e-4355-bbaf-3ed31c780d66.png)
 ###  
+### <카카오 로그인>
+![image](https://user-images.githubusercontent.com/102139584/175492692-559c30d9-9d84-41df-bce7-7b5e97f86580.png)
+###
+### <회원가입>
+![image](https://user-images.githubusercontent.com/102139584/175502803-8bd58cb6-d8c5-424f-88b8-9fce87ca0669.png)
+###
+### <마이페이지>
+![image](https://user-images.githubusercontent.com/102139584/175503026-360ac4f3-b05c-4437-880a-4369d1e07cac.png)
+###
+### <주소 등록>
+![image](https://user-images.githubusercontent.com/102139584/175505718-c189af9b-5560-491d-8171-657d323ef347.png)
+###
+### <반려견 등록>
+![image](https://user-images.githubusercontent.com/102139584/175512484-96262d00-0521-4c60-9198-cab2fb65765e.png)
+###
+### <등록 후 마이페이지>
+![image](https://user-images.githubusercontent.com/102139584/175512656-d99f006e-b8a1-406a-b8cf-eb8e9a5c6da3.png)
+###
