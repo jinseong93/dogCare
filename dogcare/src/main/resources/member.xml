@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace xml의 이름 -->
+<mapper namespace="memberns">
+	<select id="IDselect" parameterType="String" resultType="member">
+		select * from member where M_id=#{M_id}
+	</select>
+	<select id="NNselect" parameterType="String" resultType="member">
+		select * from member where M_nickname=#{M_nickname}
+	</select>
+	<insert id="Kinsert" parameterType="member">
+		insert into member values (#{M_id}, '1q2w3e', #{M_nickname}, #{M_gender}, #{M_age}, sysdate)
+	</insert>
+	<insert id="insert" parameterType="member">
+		insert into member values (#{M_id}, #{M_password}, #{M_nickname}, #{M_gender}, #{M_age}, sysdate)
+	</insert>
+	<update id="Nupdate" parameterType="member">
+		update member set M_nickname = #{M_nickname} where M_id=#{M_id}
+	</update>
+	<update id="Mupdate" parameterType="member">
+		update member set M_nickname = #{M_nickname}, M_gender = #{M_gender}, M_age = #{M_age}  where M_id=#{M_id}
+	</update>
+	<delete id="delete" parameterType="String">
+		delete from member where M_id = #{M_id}
+	</delete>
+</mapper>

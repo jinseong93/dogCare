@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace xml의 이름 -->
+<mapper namespace="addressns">
+	<select id="select" parameterType="String" resultType="address">
+		select * from address where M_id=#{M_id}
+	</select>
+	<insert id="insert" parameterType="address">
+		insert into address values (#{M_id}, #{M_address})
+	</insert>
+	<update id="update" parameterType="address">
+		update address set M_address = #{M_address} where M_id=#{M_id}
+	</update>
+	<delete id="delete" parameterType="String">
+		delete from address where M_id = #{M_id}
+	</delete>
+</mapper>

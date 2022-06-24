@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace xml의 이름 -->
+<mapper namespace="dogns">
+	<insert id="insert" parameterType="dog">
+		<selectKey keyProperty="D_num" order="BEFORE" resultType="integer">
+			select nvl(max(D_num),0) + 1 D_num from dog
+		</selectKey>
+		insert into dog values (#{D_num}, #{M_id}, #{D_name}, #{D_breed}, #{D_size}, #{D_neutered}, #{D_RFID}, #{D_inoculation}, 
+			#{D_photo}, #{D_DRA}, #{D_PRA}, #{D_dislike}, #{D_attack}, sysdate)
+	</insert>
+	<select id="select" parameterType="String" resultType="dog">
+		select * from dog where D_num = #{D_num}
+	</select>
+	<select id="IDdogList" resultType="dog" parameterType="String">
+		select * from dog where M_id = #{M_id}
+	</select>
+</mapper>
