@@ -29,5 +29,14 @@
 ![image](https://user-images.githubusercontent.com/102139584/175512484-96262d00-0521-4c60-9198-cab2fb65765e.png)
 ###
 ### <등록 후 마이페이지>
-![image](https://user-images.githubusercontent.com/102139584/175512656-d99f006e-b8a1-406a-b8cf-eb8e9a5c6da3.png)
+![image](https://user-images.githubusercontent.com/102139584/175803130-82cdb363-d830-48b0-8979-901335609cff.png)
+###
+### <반려견 상세 페이지>
+![image](https://user-images.githubusercontent.com/102139584/175803084-225f7ed2-8bb9-4f5f-8e36-9429e0a18a5e.png)
+###
+### <반려견 리스트>
+![image](https://user-images.githubusercontent.com/102139584/175803305-6ab3bdce-c20e-4b57-8d0b-11b3bcca5aac.png)
+###
+### <돌봄 서비스 신청>
+![image](https://user-images.githubusercontent.com/102139584/175803660-bbffe2a8-4c89-4893-be54-fd03568e3a02.png)
 ###
