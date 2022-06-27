@@ -43,3 +43,6 @@
 ### <펫시터가 보는 돌봄 신청서>
 ![image](https://user-images.githubusercontent.com/102139584/175813011-71fcbaa3-338f-4cfd-8dcd-dee96e37cec4.png)
 ###
+### <QnA 게시판>
+![image](https://user-images.githubusercontent.com/102139584/175842091-0fd54d7e-2dfe-4471-81fc-235602e38e95.png)
+###
